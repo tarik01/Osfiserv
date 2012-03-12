@@ -1,0 +1,253 @@
+body{
+	font-family: Segoe UI, Arial, Verdana !important;
+	background: url("images/body.png") repeat-x scroll 0 0 #FCFAF8;
+}
+#bar_top{
+	height: 30px;
+	background-color: #3399CC;
+}
+.inblock{
+	display: inline-block;
+}
+.logo{
+	float: left;
+	margin-top: -10px;
+}
+.osfiserv{
+	float: left;
+	margin: 80px;
+}
+#menu{
+	float: right;
+	margin-top: 30px;
+	line-height: 1.25;
+	list-style: none outside;
+}
+.medium{
+	margin: 0 10px 0 10px;
+	background-color: #ccc;
+	width: 2px;
+	height: 20px;
+}
+#pagetop{
+	background-color: #fff;
+	border-bottom: 1px solid #ECEAE8;
+	box-shadow: 0 2px 4px rgba(220, 218, 216, 0.75);
+}
+#bar_top2{
+	background-color: #fff;
+}
+#ordens_em_aberto{
+	margin-top: 30px;
+	height: 400px;
+	width: 454px !important;
+	padding: 2px;
+
+}
+#servicos_executados{
+	margin-top: 30px;
+	min-height: 708px;
+	width: 454px !important;
+	padding: 2px;
+}
+#servicos_executados_ver{
+	margin-top: 30px;
+	min-height: 669px;
+	width: 454px !important;
+	padding: 2px;
+}
+.item_servico_list{
+	margin-top: 6px;
+}
+.item_servico_div{
+	padding: 5px;
+	margin-top: 5px;
+	background-color: #CCDFEE;
+}
+.item_servico_table input{
+	margin: 0 5px 0 0;
+}
+#dados_empresa{
+	margin-top: 30px;
+	height: 150px;
+	width: 454px !important;
+	padding: 2px;
+}
+#dados_cliente{
+	margin-top: 30px;
+	height: 110px;
+	width: 454px !important;
+	padding: 2px;
+}
+#dados_veiculo,#dados_os,#dados_pagamento,#dados_funcionario{
+	margin-top: 5px;
+	width: 454px !important;
+	padding: 2px;
+}
+#botao_ok_cancela{
+	text-align: center; 
+	margin-top: 10px;
+}
+#botao_ok_cancela a{
+	margin: 5px;
+}
+.title{
+	line-height: 30px;
+	text-align: center;
+}
+#ultimos_servicos{
+	margin-top: 10px;
+	width: 454px !important;
+	height: 234px;
+	padding: 2px;
+}
+label.carro{
+	margin-left: 20px;
+}
+.em_aberto_item{
+	margin: 6px;
+}
+.em_aberto_item label{
+	font-weight: bold;
+}
+.ver_os {
+	margin: -12px 10px 0 0 ; 
+	float: right;
+}
+.white{
+	background-color: #fff;
+}
+.gray{
+	background-color: #ccc;
+}
+.hide{
+	display: none;
+	position: absolute;
+}
+.hide2{
+	visibility: hidden;
+	position: absolute;
+}
+
+
+/*Menu*/
+#menu li{
+	/*margin: 0 10px 0 0;*/
+	margin-left: 0px;
+	border-left: 1px solid #ECEAE8;
+}
+#menu li a{
+    padding-right: 11px;
+	text-decoration: none;
+	color: #999;
+	line-height: 2;
+	padding: 5px 12px 5px 17px;
+	
+}
+#menu li ul li a{
+	border-right: 0px !important;
+	padding: 0px 0px 0px 0px !important;
+	line-height: 3;
+}
+.end{
+	border-left: 0px solid !important;
+}
+.menus li {
+	background-color: #fff;
+	border-right: 1px solid #ECEAE8;
+	border-left: 1px solid #ECEAE8;
+	border-bottom: 1px solid #ECEAE8;
+	border-top: 1px solid #fff;
+	list-style: none outside;
+}
+.menus{
+	box-shadow: 3px 5px 4px 0px #888;
+}
+#menu_clientes{
+	position: absolute;
+	margin: 2px 0 0 -1px;
+	text-decoration: none;
+	width: 80px;
+	text-align: center;
+	z-index: 999;
+}
+#menu_funcionarios{
+	position: absolute;
+	margin: 2px 0 0 -1px;
+	text-decoration: none;
+	width: 108px;
+	text-align: center;
+	z-index: 999;
+}
+#menu_os{
+	position: absolute;
+	margin: 2px 0 0 -1px;
+	width: 141px;
+	text-decoration: none;
+	text-align: center;
+	z-index: 999;
+}
+#menu_servicos{
+	position: absolute;
+	margin: 2px 0 0 -1px;
+	width: 83px;
+	text-decoration: none;
+	text-align: center;
+	z-index: 999;
+}
+
+
+/* Cadastrar Cliente*/
+#dados_valor{
+	margin-top: 30px;
+	height: 150px;
+	width: 454px !important;
+	padding: 2px;
+}
+
+/*Pesquisar*/
+#pesquisar_box{
+	margin-top: 30px;
+	padding: 2px;
+	min-height: 150px;
+}
+
+.menus li:hover{
+	background-color: #ECEAE8;
+}
+.alerta{
+	font-size: 0.9em;
+
+}
+.text{
+	margin-bottom: 10px;
+}
+.boxDialog{
+	margin-bottom: 0px !important; 
+}
+placa_carro{
+	text-transform: uppercase;
+}
+input,textarea{
+	font-family: Segoe UI, Arial, Verdana !important;
+	text-transform: uppercase;
+}
+select{
+	font-family: Segoe UI, Arial, Verdana !important;
+}
+textarea{
+font-size: 12px;
+}
+.descAction{
+	margin-top: 30px;
+}
+.tdBordaCenter{
+	border: 1px solid #ccc;
+	padding: 5px;
+	text-align: center;
+	width: 12.5%;
+}
+.tdBorda{
+	border: 1px solid #ccc;
+	padding: 5px;
+}
